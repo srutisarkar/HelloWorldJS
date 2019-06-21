@@ -75,7 +75,7 @@ That's it, project has been created.  Though it would probably be good to set yo
 
         $ oc project nodejs-echo
 
-### Creating new apps
+### Creating new apps testing
 
 You can create a new OpenShift application using the web console or by running the `oc new-app` command from the CLI. With the  OpenShift CLI there are three ways to create a new application, by specifying either:
 
