@@ -33,7 +33,7 @@
 
 This example will serve a welcome page and the current hit count as stored in a database.
 
-### OpenShift Origin v3 setup
+### OpenShift Origin v3 setup test
 
 There are four methods to get started with OpenShift v3:
 
@@ -75,7 +75,7 @@ That's it, project has been created.  Though it would probably be good to set yo
 
         $ oc project nodejs-echo
 
-### Creating new apps
+### Creating new apps testing
 
 You can create a new OpenShift application using the web console or by running the `oc new-app` command from the CLI. With the  OpenShift CLI there are three ways to create a new application, by specifying either:
 
@@ -198,7 +198,7 @@ Running `oc status` or checking the web console will reveal the address of the n
 
 Note that the url for our new Mongo instance, for our example, is `172.30.0.112:27017`, yours will likely differ.
 
-#### Setting environment variables
+#### Setting environment variables for testing
 
 To take a look at environment variables set for each pod, run `oc env pods --all --list`.
 
