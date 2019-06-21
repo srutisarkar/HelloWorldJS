@@ -198,7 +198,7 @@ Running `oc status` or checking the web console will reveal the address of the n
 
 Note that the url for our new Mongo instance, for our example, is `172.30.0.112:27017`, yours will likely differ.
 
-#### Setting environment variables
+#### Setting environment variables for testing
 
 To take a look at environment variables set for each pod, run `oc env pods --all --list`.
 
